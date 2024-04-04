@@ -1,0 +1,7 @@
+
+
+@media screen and (max-width: 315px) {
+    .loginButton{
+        background: purple;
+    }
+}

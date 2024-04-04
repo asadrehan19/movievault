@@ -1,0 +1,288 @@
+.detailContainer{
+    height: 100%;
+    overflow: hidden;
+    /* grid-auto-rows: auto; */
+    position: relative;
+
+}
+
+.imageDiv{
+    width: 20rem;
+    margin-top: 11px;
+    margin-left: 9px;
+    border-radius: 5px;
+}
+
+.titlediv{
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 55rem;
+    color: white;
+    font-size: 2.5rem;
+    margin-top: 10px;
+    transform: translateX(19rem);
+    position: fixed;
+}
+
+.starRatting{
+    width: 15rem;
+    height: 4rem;
+    margin-left: 40rem;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    margin-left: 40rem;
+    margin-top: 5rem;
+
+}
+.descriptionDiv{
+    width: 60rem;
+    color: white;
+    margin-left: 343px;
+    height: 10rem;
+    margin-top: 11rem;
+    flex-wrap: wrap;
+    position: fixed;
+    background-color: black;
+}
+.descriptionTitle{
+    transform: translateX(300px);
+    row-gap: 5px;
+    margin-top: -12px;
+    color: white;
+    font-size: 1.8rem;
+}
+.buttonDiv{
+    width: 23rem;
+    height: 5rem;
+    margin-left: 350px;
+    column-gap: 74px;
+    transform: translateY(23rem);
+    padding: 0px;
+    position: fixed;
+}
+
+
+
+
+@media screen and (min-width: 100px) and (max-width: 320px) {
+
+    .detailContainer{
+        height: 100%;
+        overflow: hidden;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+    
+    }
+
+    .imageDiv{
+        width: 19rem;
+        margin-top: 43px;
+        margin-left: 9px;
+        border-radius: 5px;
+    }
+    .detailContainer{
+        height: 80%;
+        overflow: hidden;
+    }
+    .titlediv{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 55rem;
+        color: white;
+        font-size: 1.5rem;
+        margin-top: -18px;
+        transform: translateX(-18rem);
+        /* position: fixed; */
+        position: absolute;
+    }
+
+    .starRatting{
+        width: 15rem;
+        height: 4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* position: fixed; */
+        margin-left: 4rem;
+        margin-top: 29.9rem;
+        position: absolute;
+    }
+    .descriptionDiv{
+        width: fit-content;
+        height: fit-content;
+        color: white;
+        /* border: 1px solid white; */
+        margin-left: 8px;
+        position: absolute;
+        height: 10rem;
+        line-break: auto;
+        margin-top: 34rem;
+    }
+    .descriptionTitle{
+        transform: translateX(95px);
+        row-gap: 5px;
+        margin-top: -12px;
+        color: white;
+        font-size: 1.5rem;
+    }
+    .buttonDiv{
+        width: 23rem;
+        height: fit-content;
+        margin-left: 9px;
+        column-gap: 48px;
+        transform: translateY(66rem);
+        padding: 0px;
+        position: absolute;
+    }
+}
+
+@media screen and (min-width: 320px ) and (max-width: 350px) {
+    .detailContainer{
+        height: 100%;
+        overflow: hidden;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+    }
+
+    .imageDiv{
+        width: 19rem;
+        margin-top: 43px;
+        margin-left: 25px;
+        border-radius: 5px;
+    }
+    .detailContainer{
+        height: 80%;
+        overflow: hidden;
+    }
+    .titlediv{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 55rem;
+        color: white;
+        font-size: 1.5rem;
+        margin-top: -18px;
+        transform: translateX(-17rem);
+        /* position: fixed; */
+        position: absolute;
+    }
+
+    .starRatting{
+        width: 15rem;
+        height: 4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* position: fixed; */
+        margin-left: 4rem;
+        margin-top: 30rem;
+        position: absolute;
+    }
+    .descriptionDiv{
+        width: fit-content;
+        height: fit-content;
+        color: white;
+        /* border: 1px solid white; */
+        margin-left: 8px;
+        position: absolute;
+        height: 10rem;
+        line-break: auto;
+        margin-top: 34rem;
+    }
+    .descriptionTitle{
+        transform: translateX(95px);
+        row-gap: 5px;
+        margin-top: -12px;
+        color: white;
+        font-size: 1.5rem;
+    }
+    .buttonDiv{
+        width: 23rem;
+        height: fit-content;
+        margin-left: 9px;
+        column-gap: 48px;
+        transform: translateY(65rem);
+        padding: 0px;
+        position: absolute;
+    }
+}
+
+@media screen and (min-width: 350px) and (max-width: 390px) {
+    .detailContainer{
+        height: 100%;
+        overflow: hidden;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+    }
+
+    .imageDiv{
+        width: 19rem;
+        margin-top: 43px;
+        margin-left: 37px;
+        border-radius: 5px;
+    }
+    .detailContainer{
+        height: 80%;
+        overflow: hidden;
+    }
+    .titlediv{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 55rem;
+        color: white;
+        font-size: 1.5rem;
+        margin-top: -18px;
+        transform: translateX(-16.5rem);
+        /* position: fixed; */
+        position: absolute;
+    }
+
+    .starRatting{
+        width: 15rem;
+        height: 4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* position: fixed; */
+        margin-left: 6rem;
+        margin-top: 30rem;
+        position: absolute;
+    }
+    .descriptionDiv{
+        width: fit-content;
+        height: fit-content;
+        color: white;
+        /* border: 1px solid white; */
+        margin-left: 8px;
+        position: absolute;
+        height: 10rem;
+        line-break: auto;
+        margin-top: 34rem;
+    }
+    .descriptionTitle{
+        transform: translateX(116px);
+        row-gap: 5px;
+        margin-top: -12px;
+        color: white;
+        font-size: 1.5rem;
+    }
+    .buttonDiv{
+        width: 23rem;
+        height: fit-content;
+        margin-left: 9px;
+        column-gap: 48px;
+        transform: translateY(65rem);
+        padding: 0px;
+        position: absolute;
+    }
+}

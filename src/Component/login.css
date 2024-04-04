@@ -1,0 +1,56 @@
+/* .main::before{
+    background-image: url("https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bG9naW4lMjBmcm9tfGVufDB8fDB8fHww");
+} */
+.main{
+    width: 35rem;
+    height: 25rem;
+    border : 1px solid rgba(186, 184, 184, 0.61);
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 5%;
+    background-image: url("https://images.unsplash.com/uploads/141103282695035fa1380/95cdfeef?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bG9naW4lMjBmcm9tfGVufDB8fDB8fHww");
+    background-position: center;
+}
+.loginText{
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content : center;
+    align-items: center;
+    margin-top: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: large;
+}
+
+.inputs{
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content : center;
+    margin-top: 20px;
+}
+.inputFields{
+    width: 70%;
+    padding: 3px;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+.loginButton{
+font-size: 19px;
+width: 80px;
+color: white;
+font-weight: 600;
+margin-top: 20px;
+background-color:#DC143C;   
+border-radius: 5px;
+padding: 5px;
+}
+
+@media screen and (max-width: 320px) {
+    .main{
+        width: 15rem;
+    }
+}
