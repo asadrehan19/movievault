@@ -4,34 +4,50 @@
 
 @media screen and (min-width: 100px) and (max-width: 320px) {
     .movieImage{
-        margin-left: 28px;
+        margin-left: 0px;
         width: 100%;
     }
     .movieDetail{
         margin-left: 28px;
         width: 245px;
+    }
+    .movieDetail{
+        margin-left: -5px;
     }
 }
 
 
 @media screen and (min-width: 320px) and (max-width: 350px) {
     .movieImage{
-        margin-left: 40px;
+        margin-left: 0px;
         width: 100%;
     }
     .movieDetail{
         margin-left: 36px;
         width: 245px;
     }
+    .bgCard{
+        margin-left: 40px;
+    }
+    .movieDetail{
+        margin-left: -5px;
+    }
 }
 
 @media screen and (min-width: 350px) and (max-width: 390px) {
     .movieImage{
-        margin-left: 60px;
+        margin-left: 0px;
         width: 100%;
     }
     .movieDetail{
         margin-left: 56px;
         width: 245px;
+    }
+    .bgCard{
+        height: fit-content;
+    margin-left: 73px;
+    }
+    .movieDetail{
+        margin-left: -5px;
     }
 }
